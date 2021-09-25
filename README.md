@@ -1,3 +1,11 @@
+# A Note About Styling
+
+Using [Airbnb style guide](https://airbnb.io/javascript/react/#naming).
+
+# ToDos
+
+Update state on button click, replace/resize rating images, update to arrow function/remove `bind`, styling.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
