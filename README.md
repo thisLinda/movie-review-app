@@ -4,7 +4,7 @@ Using [Airbnb style guide](https://airbnb.io/javascript/react/#naming).
 
 # ToDos
 
-Update state on button click, replace/resize rating images, update to arrow function/remove `bind`, styling.
+State stars, update state for all necessary components, replace/resize rating images, update to arrow function/remove `bind`, styling.
 
 # Getting Started with Create React App
 
