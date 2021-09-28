@@ -1,7 +1,7 @@
 // a one to five-star rating component that allows users to rate something (movies in this case, but remember that components are reusable, so you could use it elsewhere!)
 
 // https://w3collective.com/react-star-rating-component/
-// Note to grader: I was unable to determine how stars should work, searching on Google I found this code which I've included because I was curious about how it worked. It gave me a preview into hooks and was helpful with learning state.
+// Note to grader: I was unable to determine how stars should work, searching on Google I found this code which I've included because I was curious about how it worked. It gave me a preview into hooks and was helpful with using map.
 import React, {useState} from 'react';
 
 // don't need to bind when using an arrow function

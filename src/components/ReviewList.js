@@ -9,6 +9,7 @@ export default class ReviewList extends React.Component {
       this.state = {reviews: new Array()};
   }
 
+  // onHandleChange()
   onFormSubmit(formState) {
     const reviews = this.state.reviews.slice();
     reviews.push(formState);
@@ -23,7 +24,7 @@ export default class ReviewList extends React.Component {
         {this.state.reviews.map(function(review, index) {
           return <div key={index}> {review.reviewInfo}></div>
         })}
-        <ReviewForm onSubmit={(formState) => this.onFormSubmit(formState)} />
+        <ReviewForm onFormSubmit={(formState) => this.onFormSubmit(formState)} />
       </div>
     )
   }

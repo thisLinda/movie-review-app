@@ -26,10 +26,11 @@ export default class ReviewForm extends React.Component{
   }
 
   submitReview() {
-    this.props.onSubmit(this.state);
+    this.props.onFormSubmit(this.state);
     this.resetReview();
   }
 
+  // I think this should be onChange, parent gets handleChange
   handleChange(e) {
     let target = e.target;
     let name = target.name;
